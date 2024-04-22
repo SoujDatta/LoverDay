@@ -34,6 +34,16 @@ main {
 
 .images a {
     text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.images a:hover {
+    transform: scale(1.1);
 }
 
 .images img {
@@ -43,6 +53,8 @@ main {
 
 .images p {
     margin-top: 10px;
+    color: #ec84b8; /* Changed to dark pink */
+    font-weight: bold;
 }
 
 .lovers-day {
@@ -53,7 +65,7 @@ main {
 .lovers-day h1 {
     font-size: 48px;
     font-family: 'cursive', cursive;
-    color: #ec84b8;
+    color: #ec84b8; /* Dark pink color */
 }
 
 footer {
