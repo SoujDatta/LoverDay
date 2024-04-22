@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Something is cooking</title>
     <link rel="stylesheet" href="styles1.css">
-    <script src="script1.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const catLink = document.getElementById('catLink');
+            const heartLink = document.getElementById('heartLink');
+
+            catLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = 'heartbreak.html';
+            });
+
+            heartLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = 'heartbreak.html';
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -19,13 +34,13 @@
         </section>
 
         <section class="images">
-            <a id="catLink" href="#">
-                <img src="https://drive.google.com/uc?export=view&id=1C2mdL2Xmu3ra2U9UrNf4Aa-epl6IHI-m" alt="Cute Angry Cat">
+            <a id="catLink" href="heartbreak.html">
+                <img src="https://pin.it/7uB6NfVKL" alt="Cute Angry Cat">
                 <p>To make me UN-angwwwy, click on this cat!</p>
             </a>
 
-            <a id="heartLink" href="#">
-                <img src="https://drive.google.com/uc?export=view&id=1UBdRDWkncnvpyryqiNCdcTYBHo2pFNVo" alt="Broken Heart">
+            <a id="heartLink" href="heartbreak.html">
+                <img src="https://pin.it/CPCWAi7eR" alt="Broken Heart">
                 <p>To make me UN-angwwwy, click on this broken heart!</p>
             </a>
         </section>
@@ -36,5 +51,4 @@
     </footer>
 </body>
 </html>
-
 
