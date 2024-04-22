@@ -1,13 +1,13 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #7dd2e4;
     margin: 0;
     padding: 0;
 }
 
 header {
     background-color: #ff69b4;
-    color: white;
+    color: rgb(249, 186, 223);
     text-align: center;
     padding: 20px 0;
 }
@@ -16,7 +16,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #ffbedc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -53,12 +53,11 @@ main {
 .lovers-day h1 {
     font-size: 48px;
     font-family: 'cursive', cursive;
-    color: #ff69b4;
+    color: #ec84b8;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
-    color: #888888;
+    color: #d78e8e;
 }
-
